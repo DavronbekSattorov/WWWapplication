@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<!-- Bootstrap Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+</head>
+<body>
+
+	<!-- navbar navigation element with scrollspy element -->
+	<nav id="navbar-example2" class="navbar navbar-light px-3">
+	  <a class="navbar-brand " href="#">NUMBERS</a>
+	  
+	  <ul class="nav nav-pills">
+	    <li class="nav-item">
+	      <a class="nav-link navcolor" href="#fat">FIRST</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link navcolor" href="#mdo">SECOND</a>
+	    </li>
+	    <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+	      <ul class="dropdown-menu dropdown-menu-end">
+	        <li><a class="dropdown-item navcolor" href="#one">THIRD</a></li>
+	        <li><a class="dropdown-item navcolor" href="#two">FOURTH</a></li>
+	        <li><hr class="dropdown-divider"></li>
+	        <li><a class="dropdown-item navcolor" href="#three">FIFTH</a></li>
+	      </ul>
+	    </li>
+	  </ul>
+	</nav>
+
+<!-- breadcrumb navigation
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
+ -->
+
+<!-- carousel element with controls, indicators and captions: -->
+<header>
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+	    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+	    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="eight.jpg" class="d-block w-100 stay" alt="...">
+	      <div class="carousel-caption d-none d-md-block">
+	        <h5>First slide label</h5>
+	        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <img src="one.jpg" class="d-block w-100" alt="...">
+	      <div class="carousel-caption d-none d-md-block">
+	        <h5>Second slide label</h5>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <img src="nine.jpg" class="d-block w-100" alt="...">
+	      <div class="carousel-caption d-none d-md-block">
+	        <h5>Third slide label</h5>
+	        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+	      </div>
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Next</span>
+	  </a>
+</div>
+	
+</header>
+
+
+
+<section class="section-steps">
+		<div class="works-step">
+			<div id="fat">1</div>
+		</div>
+	  		<p class="row" style="margin-bottom: 10px;">Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+	  	<div class="row">
+	  		<div class="accordion-item">
+	    		<h2 class="accordion-header" id="headingOne">
+	      			<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+	       			 More...
+	      			</button>
+	    		</h2>
+	    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+	      <div class="accordion-body">
+	        <strong>This is the first item's accordion body.</strong>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.
+	      </div>
+	    </div>
+	  </div>
+	  </div>
+	  
+	  <div class="works-step">
+			<div id="mdo">2</div>
+	  </div>
+	  <p class="row" style="margin-bottom: 15px;">Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles non aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.</p>
+
+	  <div class="row">
+	  	<div class="accordion-item">
+	    <h2 class="accordion-header" id="headingOne">
+	      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+	        More...
+	      </button>
+	    </h2>
+	    <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+	      <div class="accordion-body">
+	        <strong>This is the first item's accordion body.</strong> Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.
+	      </div>
+	    </div>
+	  </div>
+	  </div>
+	  <div class="works-step">
+			<div id="one">3</div>
+		</div>
+	  <p class="row" style="margin-bottom: 15px;">Occaecat commodo aliqua delectus. Fap craft beer deserunt skateboard ea. Lomo bicycle rights adipisicing banh mi, velit ea sunt next level locavore single-origin coffee in magna veniam. High life id vinyl, echo park consequat quis aliquip banh mi pitchfork. Vero VHS est adipisicing. Consectetur nisi DIY minim messenger bag. Cred ex in, sustainable delectus consectetur fanny pack iphone.</p>
+	  <div class="row">
+	  		<div class="accordion-item">
+	    <h2 class="accordion-header" id="headingTwo">
+	      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+	        More...
+	      </button>
+	    </h2>
+	    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+	      <div class="accordion-body">
+	        <strong>This is the second item's accordion body.</strong> Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.
+	      </div>
+	    </div>
+	  </div>
+	  </div>
+
+
+
+
+	  <div class="works-step">
+			<div id="two">4</div>
+
+	</div>
+	  <p class="row" style="margin-bottom: 15px;">In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably haven't heard of them art party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf nesciunt sartorial keffiyeh eu banh mi sustainable. Elit wolf voluptate, lo-fi ea portland before they sold out four loko. Locavore enim nostrud mlkshk brooklyn nesciunt.</p>
+	  <div class="row">
+	  	<div class="accordion-item">
+	    <h2 class="accordion-header" id="headingTwo">
+	      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+	        More...
+	      </button>
+	    </h2>
+	    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+	      <div class="accordion-body">
+	        <strong>This is the second item's accordion body.</strong> Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.
+	      </div>
+	    </div>
+	  </div>
+	  	</div>
+
+	    <div class="works-step">
+			<div id="three">5</div>
+	  
+	    </div>
+	  	<p class="row" style="margin-bottom: 15px;">Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.Keytar twee blog, culpa messenger bag marfa whatever delectus food truck. Sapiente synth id assumenda. Locavore sed helvetica cliche irony, thundercats you probably haven't heard of them consequat hoodie gluten-free lo-fi fap aliquip. Labore elit placeat before they sold out, terry richardson proident brunch nesciunt quis cosby sweater pariatur keffiyeh ut helvetica artisan. Cardigan craft beer seitan readymade velit. VHS chambray laboris tempor veniam. Anim mollit minim commodo ullamco thundercats.</p>
+		 <div class="row">
+			  	 <div class="accordion-item">
+		    <h2 class="accordion-header" id="headingTwo">
+		      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+		        More...
+		      </button>
+		    </h2>
+		    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+		      <div class="accordion-body">
+		        <strong>This is the second item's accordion body.</strong>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui. Tumblr farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus, cred irony biodiesel keffiyeh artisan ullamco consequat.
+		      </div>
+		    </div>
+		</div>
+	</div>
+	 
+</section>
+
+
+
+
+<!-- Form -->
+<section class="section-form">
+	<div class="row">
+		<h1>Please fill the form!</h1>
+		<form>
+  	<div class="mb-3">
+  	<label for="nameInput" class="form-label">Name</label>
+    <input type="text" class="form-control" id="nameInput" >
+
+
+    <label for="surnameInput" class="form-label">Surname</label>
+    <input type="text" class="form-control" id="surnameInput" >
+
+
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+
+
+    <label for="phoneNumber" class="form-label">Telephone number</label>
+    <input type="number" class="form-control" id="phoneNumber" >
+
+
+    <label for="street" class="form-label">Street</label>
+    <input type="text" class="form-control" id="street" >
+
+    <label for="HouseNumber" class="form-label">House number / flat number</label>
+    <input type="number" class="form-control" id="HouseNumber" >
+
+    <label for="zip" class="form-label">Zip code</label>
+    <input type="number" class="form-control" id="zip" >
+
+    <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control" id="city" >
+
+    <label for="province" class="form-label">Province</label>
+    <input type="text" class="form-control" id="province" >
+  </div>
+  		<div class="mb-3">
+    		<label for="exampleInputPassword1" class="form-label">Password</label>
+    		<input type="password" class="form-control" id="exampleInputPassword1">
+  		</div>
+  		<div class="mb-3 form-check">
+    		<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    		<label class="form-check-label" for="exampleCheck1">Check me out</label>
+  		</div>
+  		<button type="submit" class="btn btn-primary">Submit</button>
+  		<button type="reset" class="btn btn-primary">Reset</button>
+	</form>
+	</div>
+	
+</section>
+
+
+
+
+
+<!-- Tooltip -->
+<div class="row" style="margin-top: 10px; margin-bottom: 10px;">
+	<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+  Tooltip on top
+</button>
+</div>
+
+
+
+
+<!--display a modal window-->
+
+<section>
+	<div class="row">
+		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Drop your ideas!</button>
+
+
+
+<div class="modal-dialog modal-fullscreen-sm-down">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+	
+</section>
+
+  
+</div>
+
+
+</body>
+</html>
